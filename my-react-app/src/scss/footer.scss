@@ -31,9 +31,16 @@ footer {
 
     @media (max-width: 768px) {
         
+
+        footer {
+            margin: 0;
+            padding: 0;
+        }
+
+
         p {
             font-size: 12px;
         }
-        }
+    }
     
 }
