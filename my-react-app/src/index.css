@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color: black;
-   /* background-color: #242424; */
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,6 +17,7 @@ a {
   color: rgb(0, 0, 0);
   text-decoration: inherit;
 }
+
 a:hover, .active {
   text-decoration: underline;
 }  
@@ -25,7 +26,7 @@ body {
   margin: 0;
   display: flex;
   width: 100%;
-   /* place-items: center; Masqué, sinon le footer ne s'affiche pas à la bonne largeur*/
+  /* place-items: center; Masqué, sinon le footer ne s'affiche pas à la bonne largeur*/
   flex-direction: column;
   align-items: center;
   min-width: 320px;
@@ -48,9 +49,9 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-/*button:hover {
+/* button:hover {
   border-color: #646cff;
-}*/
+} */
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
